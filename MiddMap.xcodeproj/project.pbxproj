@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282AA65A1899837200143BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA6591899837200143BA0 /* Foundation.framework */; };
+		282AA65C1899837200143BA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA65B1899837200143BA0 /* CoreGraphics.framework */; };
+		282AA65E1899837200143BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA65D1899837200143BA0 /* UIKit.framework */; };
+		282AA6641899837200143BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6621899837200143BA0 /* InfoPlist.strings */; };
+		282AA6661899837200143BA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AA6651899837200143BA0 /* main.m */; };
+		282AA66A1899837200143BA0 /* WPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AA6691899837200143BA0 /* WPAppDelegate.m */; };
+		282AA66D1899837200143BA0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282AA66B1899837200143BA0 /* Main_iPhone.storyboard */; };
+		282AA6701899837200143BA0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282AA66E1899837200143BA0 /* Main_iPad.storyboard */; };
+		282AA6731899837200143BA0 /* WPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AA6721899837200143BA0 /* WPFirstViewController.m */; };
+		282AA6761899837200143BA0 /* WPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AA6751899837200143BA0 /* WPSecondViewController.m */; };
+		282AA6781899837200143BA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6771899837200143BA0 /* Images.xcassets */; };
+		282AA67F1899837200143BA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA67E1899837200143BA0 /* XCTest.framework */; };
+		282AA6801899837200143BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA6591899837200143BA0 /* Foundation.framework */; };
+		282AA6811899837200143BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA65D1899837200143BA0 /* UIKit.framework */; };
+		282AA6891899837200143BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6871899837200143BA0 /* InfoPlist.strings */; };
+		282AA68B1899837200143BA0 /* MiddMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AA68A1899837200143BA0 /* MiddMapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282AA6821899837200143BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282AA64E1899837100143BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282AA6551899837100143BA0;
+			remoteInfo = MiddMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282AA6561899837200143BA0 /* MiddMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiddMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282AA6591899837200143BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		282AA65B1899837200143BA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		282AA65D1899837200143BA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282AA6611899837200143BA0 /* MiddMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiddMap-Info.plist"; sourceTree = "<group>"; };
+		282AA6631899837200143BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282AA6651899837200143BA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282AA6671899837200143BA0 /* MiddMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiddMap-Prefix.pch"; sourceTree = "<group>"; };
+		282AA6681899837200143BA0 /* WPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPAppDelegate.h; sourceTree = "<group>"; };
+		282AA6691899837200143BA0 /* WPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAppDelegate.m; sourceTree = "<group>"; };
+		282AA66C1899837200143BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		282AA66F1899837200143BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		282AA6711899837200143BA0 /* WPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPFirstViewController.h; sourceTree = "<group>"; };
+		282AA6721899837200143BA0 /* WPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPFirstViewController.m; sourceTree = "<group>"; };
+		282AA6741899837200143BA0 /* WPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPSecondViewController.h; sourceTree = "<group>"; };
+		282AA6751899837200143BA0 /* WPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPSecondViewController.m; sourceTree = "<group>"; };
+		282AA6771899837200143BA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		282AA67D1899837200143BA0 /* MiddMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiddMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282AA67E1899837200143BA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		282AA6861899837200143BA0 /* MiddMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiddMapTests-Info.plist"; sourceTree = "<group>"; };
+		282AA6881899837200143BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282AA68A1899837200143BA0 /* MiddMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiddMapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282AA6531899837100143BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AA65C1899837200143BA0 /* CoreGraphics.framework in Frameworks */,
+				282AA65E1899837200143BA0 /* UIKit.framework in Frameworks */,
+				282AA65A1899837200143BA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282AA67A1899837200143BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AA67F1899837200143BA0 /* XCTest.framework in Frameworks */,
+				282AA6811899837200143BA0 /* UIKit.framework in Frameworks */,
+				282AA6801899837200143BA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282AA64D1899837100143BA0 = {
+			isa = PBXGroup;
+			children = (
+				282AA65F1899837200143BA0 /* MiddMap */,
+				282AA6841899837200143BA0 /* MiddMapTests */,
+				282AA6581899837200143BA0 /* Frameworks */,
+				282AA6571899837200143BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282AA6571899837200143BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282AA6561899837200143BA0 /* MiddMap.app */,
+				282AA67D1899837200143BA0 /* MiddMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282AA6581899837200143BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282AA6591899837200143BA0 /* Foundation.framework */,
+				282AA65B1899837200143BA0 /* CoreGraphics.framework */,
+				282AA65D1899837200143BA0 /* UIKit.framework */,
+				282AA67E1899837200143BA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		282AA65F1899837200143BA0 /* MiddMap */ = {
+			isa = PBXGroup;
+			children = (
+				282AA6681899837200143BA0 /* WPAppDelegate.h */,
+				282AA6691899837200143BA0 /* WPAppDelegate.m */,
+				282AA66B1899837200143BA0 /* Main_iPhone.storyboard */,
+				282AA66E1899837200143BA0 /* Main_iPad.storyboard */,
+				282AA6711899837200143BA0 /* WPFirstViewController.h */,
+				282AA6721899837200143BA0 /* WPFirstViewController.m */,
+				282AA6741899837200143BA0 /* WPSecondViewController.h */,
+				282AA6751899837200143BA0 /* WPSecondViewController.m */,
+				282AA6771899837200143BA0 /* Images.xcassets */,
+				282AA6601899837200143BA0 /* Supporting Files */,
+			);
+			path = MiddMap;
+			sourceTree = "<group>";
+		};
+		282AA6601899837200143BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282AA6611899837200143BA0 /* MiddMap-Info.plist */,
+				282AA6621899837200143BA0 /* InfoPlist.strings */,
+				282AA6651899837200143BA0 /* main.m */,
+				282AA6671899837200143BA0 /* MiddMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282AA6841899837200143BA0 /* MiddMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				282AA68A1899837200143BA0 /* MiddMapTests.m */,
+				282AA6851899837200143BA0 /* Supporting Files */,
+			);
+			path = MiddMapTests;
+			sourceTree = "<group>";
+		};
+		282AA6851899837200143BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282AA6861899837200143BA0 /* MiddMapTests-Info.plist */,
+				282AA6871899837200143BA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282AA6551899837100143BA0 /* MiddMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282AA68E1899837200143BA0 /* Build configuration list for PBXNativeTarget "MiddMap" */;
+			buildPhases = (
+				282AA6521899837100143BA0 /* Sources */,
+				282AA6531899837100143BA0 /* Frameworks */,
+				282AA6541899837100143BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiddMap;
+			productName = MiddMap;
+			productReference = 282AA6561899837200143BA0 /* MiddMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282AA67C1899837200143BA0 /* MiddMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282AA6911899837200143BA0 /* Build configuration list for PBXNativeTarget "MiddMapTests" */;
+			buildPhases = (
+				282AA6791899837200143BA0 /* Sources */,
+				282AA67A1899837200143BA0 /* Frameworks */,
+				282AA67B1899837200143BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282AA6831899837200143BA0 /* PBXTargetDependency */,
+			);
+			name = MiddMapTests;
+			productName = MiddMapTests;
+			productReference = 282AA67D1899837200143BA0 /* MiddMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282AA64E1899837100143BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Will Potter";
+				TargetAttributes = {
+					282AA67C1899837200143BA0 = {
+						TestTargetID = 282AA6551899837100143BA0;
+					};
+				};
+			};
+			buildConfigurationList = 282AA6511899837100143BA0 /* Build configuration list for PBXProject "MiddMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282AA64D1899837100143BA0;
+			productRefGroup = 282AA6571899837200143BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282AA6551899837100143BA0 /* MiddMap */,
+				282AA67C1899837200143BA0 /* MiddMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282AA6541899837100143BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AA6701899837200143BA0 /* Main_iPad.storyboard in Resources */,
+				282AA6781899837200143BA0 /* Images.xcassets in Resources */,
+				282AA66D1899837200143BA0 /* Main_iPhone.storyboard in Resources */,
+				282AA6641899837200143BA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282AA67B1899837200143BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AA6891899837200143BA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282AA6521899837100143BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AA6661899837200143BA0 /* main.m in Sources */,
+				282AA6761899837200143BA0 /* WPSecondViewController.m in Sources */,
+				282AA6731899837200143BA0 /* WPFirstViewController.m in Sources */,
+				282AA66A1899837200143BA0 /* WPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282AA6791899837200143BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282AA68B1899837200143BA0 /* MiddMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282AA6831899837200143BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282AA6551899837100143BA0 /* MiddMap */;
+			targetProxy = 282AA6821899837200143BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282AA6621899837200143BA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282AA6631899837200143BA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		282AA66B1899837200143BA0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282AA66C1899837200143BA0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		282AA66E1899837200143BA0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282AA66F1899837200143BA0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		282AA6871899837200143BA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282AA6881899837200143BA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282AA68C1899837200143BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		282AA68D1899837200143BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282AA68F1899837200143BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiddMap/MiddMap-Prefix.pch";
+				INFOPLIST_FILE = "MiddMap/MiddMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		282AA6901899837200143BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiddMap/MiddMap-Prefix.pch";
+				INFOPLIST_FILE = "MiddMap/MiddMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		282AA6921899837200143BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiddMap.app/MiddMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiddMap/MiddMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MiddMapTests/MiddMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		282AA6931899837200143BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiddMap.app/MiddMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiddMap/MiddMap-Prefix.pch";
+				INFOPLIST_FILE = "MiddMapTests/MiddMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282AA6511899837100143BA0 /* Build configuration list for PBXProject "MiddMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282AA68C1899837200143BA0 /* Debug */,
+				282AA68D1899837200143BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282AA68E1899837200143BA0 /* Build configuration list for PBXNativeTarget "MiddMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282AA68F1899837200143BA0 /* Debug */,
+				282AA6901899837200143BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		282AA6911899837200143BA0 /* Build configuration list for PBXNativeTarget "MiddMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282AA6921899837200143BA0 /* Debug */,
+				282AA6931899837200143BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282AA64E1899837100143BA0 /* Project object */;
+}
