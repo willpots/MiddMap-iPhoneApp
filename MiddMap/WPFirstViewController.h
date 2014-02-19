@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface WPFirstViewController : UIViewController
+@interface WPFirstViewController : UIViewController<NSURLConnectionDelegate,MKMapViewDelegate>
+{
+    NSMutableData *_responseData;
+
+}
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end

@@ -23,6 +23,23 @@
 		282AA6811899837200143BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA65D1899837200143BA0 /* UIKit.framework */; };
 		282AA6891899837200143BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6871899837200143BA0 /* InfoPlist.strings */; };
 		282AA68B1899837200143BA0 /* MiddMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AA68A1899837200143BA0 /* MiddMapTests.m */; };
+		282AA6951899861300143BA0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA6941899861300143BA0 /* MapKit.framework */; };
+		282AA6971899861C00143BA0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA6961899861C00143BA0 /* CFNetwork.framework */; };
+		282AA6B91899872A00143BA0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA6B81899872A00143BA0 /* MobileCoreServices.framework */; };
+		282AA6BB1899873400143BA0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA6BA1899873400143BA0 /* SystemConfiguration.framework */; };
+		282AA6BD1899874D00143BA0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AA6BC1899874D00143BA0 /* libz.dylib */; };
+		282AA6C3189AFCF200143BA0 /* WPPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AA6C2189AFCF200143BA0 /* WPPinAnnotation.m */; };
+		282AA6D5189B0AE400143BA0 /* priority-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6CE189B0AE400143BA0 /* priority-1.png */; };
+		282AA6D6189B0AE400143BA0 /* priority-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6CF189B0AE400143BA0 /* priority-2.png */; };
+		282AA6D7189B0AE400143BA0 /* priority-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6D0189B0AE400143BA0 /* priority-3.png */; };
+		282AA6D8189B0AE400143BA0 /* priority-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6D1189B0AE400143BA0 /* priority-4.png */; };
+		282AA6D9189B0AE400143BA0 /* priority-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6D2189B0AE400143BA0 /* priority-5.png */; };
+		282AA6DA189B0AE400143BA0 /* priority-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6D3189B0AE400143BA0 /* priority-6.png */; };
+		282AA6DB189B0AE400143BA0 /* priority-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6D4189B0AE400143BA0 /* priority-7.png */; };
+		282AA6DD189B0B3300143BA0 /* pin-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 282AA6DC189B0B3300143BA0 /* pin-icon.png */; };
+		282AA6E0189C1F7A00143BA0 /* WPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AA6DF189C1F7A00143BA0 /* WPUtil.m */; };
+		2888CA17189DA61F001C9BA5 /* WPPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2888CA16189DA61F001C9BA5 /* WPPinAnnotationView.m */; };
+		2888CA1918A01C94001C9BA5 /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2888CA1818A01C94001C9BA5 /* tabbar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +75,26 @@
 		282AA6861899837200143BA0 /* MiddMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiddMapTests-Info.plist"; sourceTree = "<group>"; };
 		282AA6881899837200143BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		282AA68A1899837200143BA0 /* MiddMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiddMapTests.m; sourceTree = "<group>"; };
+		282AA6941899861300143BA0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		282AA6961899861C00143BA0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		282AA6B81899872A00143BA0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		282AA6BA1899873400143BA0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		282AA6BC1899874D00143BA0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		282AA6C1189AFCF200143BA0 /* WPPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPinAnnotation.h; sourceTree = "<group>"; };
+		282AA6C2189AFCF200143BA0 /* WPPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPinAnnotation.m; sourceTree = "<group>"; };
+		282AA6CE189B0AE400143BA0 /* priority-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priority-1.png"; sourceTree = "<group>"; };
+		282AA6CF189B0AE400143BA0 /* priority-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priority-2.png"; sourceTree = "<group>"; };
+		282AA6D0189B0AE400143BA0 /* priority-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priority-3.png"; sourceTree = "<group>"; };
+		282AA6D1189B0AE400143BA0 /* priority-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priority-4.png"; sourceTree = "<group>"; };
+		282AA6D2189B0AE400143BA0 /* priority-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priority-5.png"; sourceTree = "<group>"; };
+		282AA6D3189B0AE400143BA0 /* priority-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priority-6.png"; sourceTree = "<group>"; };
+		282AA6D4189B0AE400143BA0 /* priority-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priority-7.png"; sourceTree = "<group>"; };
+		282AA6DC189B0B3300143BA0 /* pin-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-icon.png"; sourceTree = "<group>"; };
+		282AA6DE189C1F7A00143BA0 /* WPUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPUtil.h; sourceTree = "<group>"; };
+		282AA6DF189C1F7A00143BA0 /* WPUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPUtil.m; sourceTree = "<group>"; };
+		2888CA15189DA61F001C9BA5 /* WPPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPinAnnotationView.h; sourceTree = "<group>"; };
+		2888CA16189DA61F001C9BA5 /* WPPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPinAnnotationView.m; sourceTree = "<group>"; };
+		2888CA1818A01C94001C9BA5 /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +102,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282AA6BD1899874D00143BA0 /* libz.dylib in Frameworks */,
 				282AA65C1899837200143BA0 /* CoreGraphics.framework in Frameworks */,
+				282AA6BB1899873400143BA0 /* SystemConfiguration.framework in Frameworks */,
+				282AA6B91899872A00143BA0 /* MobileCoreServices.framework in Frameworks */,
+				282AA6971899861C00143BA0 /* CFNetwork.framework in Frameworks */,
+				282AA6951899861300143BA0 /* MapKit.framework in Frameworks */,
 				282AA65E1899837200143BA0 /* UIKit.framework in Frameworks */,
 				282AA65A1899837200143BA0 /* Foundation.framework in Frameworks */,
 			);
@@ -106,6 +148,11 @@
 		282AA6581899837200143BA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				282AA6BC1899874D00143BA0 /* libz.dylib */,
+				282AA6BA1899873400143BA0 /* SystemConfiguration.framework */,
+				282AA6B81899872A00143BA0 /* MobileCoreServices.framework */,
+				282AA6961899861C00143BA0 /* CFNetwork.framework */,
+				282AA6941899861300143BA0 /* MapKit.framework */,
 				282AA6591899837200143BA0 /* Foundation.framework */,
 				282AA65B1899837200143BA0 /* CoreGraphics.framework */,
 				282AA65D1899837200143BA0 /* UIKit.framework */,
@@ -117,14 +164,21 @@
 		282AA65F1899837200143BA0 /* MiddMap */ = {
 			isa = PBXGroup;
 			children = (
+				282AA6CD189B0AD600143BA0 /* Images */,
 				282AA6681899837200143BA0 /* WPAppDelegate.h */,
 				282AA6691899837200143BA0 /* WPAppDelegate.m */,
 				282AA66B1899837200143BA0 /* Main_iPhone.storyboard */,
 				282AA66E1899837200143BA0 /* Main_iPad.storyboard */,
 				282AA6711899837200143BA0 /* WPFirstViewController.h */,
 				282AA6721899837200143BA0 /* WPFirstViewController.m */,
+				2888CA15189DA61F001C9BA5 /* WPPinAnnotationView.h */,
+				2888CA16189DA61F001C9BA5 /* WPPinAnnotationView.m */,
+				282AA6C1189AFCF200143BA0 /* WPPinAnnotation.h */,
+				282AA6C2189AFCF200143BA0 /* WPPinAnnotation.m */,
 				282AA6741899837200143BA0 /* WPSecondViewController.h */,
 				282AA6751899837200143BA0 /* WPSecondViewController.m */,
+				282AA6DE189C1F7A00143BA0 /* WPUtil.h */,
+				282AA6DF189C1F7A00143BA0 /* WPUtil.m */,
 				282AA6771899837200143BA0 /* Images.xcassets */,
 				282AA6601899837200143BA0 /* Supporting Files */,
 			);
@@ -158,6 +212,22 @@
 				282AA6871899837200143BA0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282AA6CD189B0AD600143BA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2888CA1818A01C94001C9BA5 /* tabbar.png */,
+				282AA6DC189B0B3300143BA0 /* pin-icon.png */,
+				282AA6CE189B0AE400143BA0 /* priority-1.png */,
+				282AA6CF189B0AE400143BA0 /* priority-2.png */,
+				282AA6D0189B0AE400143BA0 /* priority-3.png */,
+				282AA6D1189B0AE400143BA0 /* priority-4.png */,
+				282AA6D2189B0AE400143BA0 /* priority-5.png */,
+				282AA6D3189B0AE400143BA0 /* priority-6.png */,
+				282AA6D4189B0AE400143BA0 /* priority-7.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +307,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282AA6D6189B0AE400143BA0 /* priority-2.png in Resources */,
 				282AA6701899837200143BA0 /* Main_iPad.storyboard in Resources */,
+				282AA6DB189B0AE400143BA0 /* priority-7.png in Resources */,
+				282AA6D7189B0AE400143BA0 /* priority-3.png in Resources */,
 				282AA6781899837200143BA0 /* Images.xcassets in Resources */,
+				282AA6D8189B0AE400143BA0 /* priority-4.png in Resources */,
 				282AA66D1899837200143BA0 /* Main_iPhone.storyboard in Resources */,
+				282AA6D9189B0AE400143BA0 /* priority-5.png in Resources */,
+				2888CA1918A01C94001C9BA5 /* tabbar.png in Resources */,
+				282AA6DD189B0B3300143BA0 /* pin-icon.png in Resources */,
+				282AA6D5189B0AE400143BA0 /* priority-1.png in Resources */,
+				282AA6DA189B0AE400143BA0 /* priority-6.png in Resources */,
 				282AA6641899837200143BA0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +339,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				282AA6661899837200143BA0 /* main.m in Sources */,
+				282AA6C3189AFCF200143BA0 /* WPPinAnnotation.m in Sources */,
+				282AA6E0189C1F7A00143BA0 /* WPUtil.m in Sources */,
 				282AA6761899837200143BA0 /* WPSecondViewController.m in Sources */,
 				282AA6731899837200143BA0 /* WPFirstViewController.m in Sources */,
+				2888CA17189DA61F001C9BA5 /* WPPinAnnotationView.m in Sources */,
 				282AA66A1899837200143BA0 /* WPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +563,7 @@
 				282AA6901899837200143BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282AA6911899837200143BA0 /* Build configuration list for PBXNativeTarget "MiddMapTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +572,7 @@
 				282AA6931899837200143BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
